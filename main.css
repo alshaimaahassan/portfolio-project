@@ -1,0 +1,183 @@
+/* start global rules */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/* start nav  */
+.nav{
+    height: auto;
+    width: auto;
+    z-index: 1;
+    background-color: burlywood;
+    color: white;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    border: 1px solid gray ;
+    display:none;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    font-size: 20px;
+    line-height: 2;
+    text-align: start;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid gray ;
+}
+.nav .close{
+    text-align: end;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+/* end nav */
+/* start login */
+.login{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 100%;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    
+    display: none;
+}
+form{
+    border: 1px solid black ;
+    width: 300px;
+    background-color: #f6f6f6;
+    height: 430px;
+    position: absolute;
+    left: 39%;
+    top: 10%;
+    opacity:2;
+    z-index: 5;
+    display: none;
+}
+@media (max-width:700px) {
+    form{
+        top: 20%;
+        left:15% ;
+    }
+    
+}
+
+
+form img{
+    border-radius: 50%;
+    width: 200px;
+    padding-top: 20px;
+}
+form input{
+    display: block;
+    border-color: rgb(218, 215, 215);
+    /* margin: 10px; */
+    width: 70%;
+    /* margin-top: 30px; */
+    margin-left: 40px;
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+}
+form h4{
+    margin: 5px;
+    text-align: start;
+    margin-left: 40px;
+    font-weight: lighter;
+}
+form .log{
+    background-color: burlywood;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+form a{
+    text-decoration: none;
+    color: burlywood;
+    left: 20px;
+    position: absolute;
+    margin-top: 10px;
+    font-weight:500;
+}
+
+/* end login */
+.hdr{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.hdr span{
+    font-family: system-ui;
+    font-size: x-large;
+    cursor:pointer;
+}
+/* start header */
+.hd{
+    position: relative;
+}
+.hd .container{
+    background-image: url(/image/backGround.jfif);
+    background-repeat: no-repeat;
+    height: auto ;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+}
+.hd img{
+    border-radius: 20%;
+}
+
+/* end header */
+/* start skills */
+.skills{
+align-items: center;
+}
+.skills p{
+    margin-left: 25%;
+margin-right: 25%;
+line-height: 2;
+padding-bottom: 20px;
+
+}
+.skills img{
+    width: 100px;
+    padding: 5px;
+}
+.skills span{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    color: burlywood;
+}
+/* end skills */
+/* start footer */
+.footer .container{
+    background-color: burlywood;
+    width: 100%;
+    height: auto;
+    padding: 30px 10px;
+    font-size: 18px;
+}
+.footer  a{ 
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.footer P{
+    padding-top: 10px;
+}
+/* end footer */
+/* تم بحمدالله */
