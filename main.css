@@ -129,7 +129,7 @@ align-items: center;
     position: relative;
 }
 .hd .container{
-    background-image: url(/image/backGround.jfif);
+    background-image: url(image/backGround.jfif);
     background-repeat: no-repeat;
     height: auto ;
     width: 100%;
